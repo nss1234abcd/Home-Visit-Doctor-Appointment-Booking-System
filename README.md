@@ -1,0 +1,1 @@
+Built an AI-enabled Doctor Appointment Booking System with separate Admin, Doctor, and Patient panels. Integrated chatbot support for appointment handling, multilingual communication, and automated prescription generation using full-stack technologies.
