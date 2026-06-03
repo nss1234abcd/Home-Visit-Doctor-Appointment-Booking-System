@@ -261,16 +261,35 @@ npm run dev
 ---
 # 🔑 Environment Variables
 
+Create a `.env` file in the admin directory.
+
+```env
+VITE_BACKEND_URL = 'http://localhost:4000'
+```
+
+Create a `.env` file in the frontend directory.
+
+```env
+VITE_BACKEND_URL = 'http://localhost:4000'
+GENAI_API_KEY= your_api_key
+REACT_APP_API_BASE_URL= http://localhost:9000
+```
+
 Create a `.env` file in the backend directory.
 
 ```env
-PORT=5000
+# Admin Panel Credentials
+ADMIN_EMAIL = "add_your_email"
+ADMIN_PASSWORD = "add_your_password"
 
-MONGODB_URI=your_mongodb_connection_string
+# MongoDB Setup ( required )
+MONGODB_URI = "your_mongodb_connection_string"
 
-JWT_SECRET=your_secret_key
+# Cloudinary Setup ( required )
+CLOUDINARY_NAME = "name"
+CLOUDINARY_API_KEY = "your_api_key"
+CLOUDINARY_SECRET_KEY = "your_secret_key"
 
-OPENAI_API_KEY=your_api_key
 ```
 ---
 
