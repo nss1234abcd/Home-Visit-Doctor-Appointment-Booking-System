@@ -240,7 +240,7 @@ git clone https://github.com/nss1234abcd/Home-Visit-Doctor-Appointment-Booking-S
 ```bash
 cd backend
 npm install
-npm start
+npm run server
 ```
 ---
 ## Frontend Setup
